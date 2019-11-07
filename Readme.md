@@ -15,4 +15,4 @@ This repository describes a docker image that has the required configuration to 
     ```
     openvpn config.ovpn &
     ```
-5. Have fun
+5. Have fun! :)
