@@ -12,6 +12,4 @@ RUN apt update -y && apt install wget -y \
     && apt install net-tools -y \
     && apt install iputils-ping -y
 
-RUN apt install kali-linux-top10 -y
-
 USER root

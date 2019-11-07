@@ -9,10 +9,15 @@ This repository describes a docker image that has the required configuration to 
     ```
 3. Start the container using the following command:
     ```
-    docker run -it --privileged --rm --sysctl net.ipv6.conf.all.disable_ipv6=0 hackthebox
+    docker run -it --privileged --sysctl net.ipv6.conf.all.disable_ipv6=0 hackthebox
     ```
-4. Once in the machine, start the VPN tunnel in the backgroud:
+4. Install kali tools in the container:
+    ```
+    apt install kali-linux-top10 -y
+    ```
+5. Wireshark will request a configuration option. Choose what fits best to you.
+6. Once in the machine, start the VPN tunnel in the backgroud:
     ```
     openvpn config.ovpn &
     ```
-5. Have fun! :)
+7. Have fun! :)
