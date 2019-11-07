@@ -1,4 +1,4 @@
-This repository describes a docker image that has the required configuration to establish a VPN connection with [hack the box](https://www.hackthebox.eu/).
+This repository describes a docker image that has the required configuration to establish a VPN connection with <a href="https://www.hackthebox.eu/" target="_blank">hack the box</a>.
 
 # How to run
 
